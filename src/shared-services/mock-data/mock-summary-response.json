@@ -1,0 +1,15 @@
+{
+    "data": {
+      "properties": [
+        {
+          "leaseSummary": "Ending 09 Dec 2021",
+          "leases": [
+            {
+              "id": "test-id",
+              "inspectionSummary": "Last electricity bill 11 Mar 2021"
+            }
+          ]
+        }
+      ]
+    }
+}

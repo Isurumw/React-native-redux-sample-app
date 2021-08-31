@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the management summary card the summary card component renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "stretch",
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#EBEEF2",
+        "borderWidth": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/key.png",
+      }
+    }
+    style={
+      Object {
+        "height": 90,
+        "resizeMode": "contain",
+        "width": 80,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginHorizontal": 8,
+        "marginVertical": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#2E3C57",
+          "fontFamily": "Inter-Bold",
+          "fontSize": 17,
+          "letterSpacing": -0.22,
+          "lineHeight": 22,
+          "marginBottom": 4,
+        }
+      }
+    >
+      test title
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#2E3C57",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 15,
+          "letterSpacing": -0.13,
+        }
+      }
+    >
+      test sub title
+    </Text>
+  </View>
+</View>
+`;

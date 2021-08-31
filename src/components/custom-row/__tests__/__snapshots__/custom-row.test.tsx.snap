@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the custom row the row component renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "stretch",
+        "flexDirection": "row",
+        "paddingVertical": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/file_text.png",
+      }
+    }
+    style={
+      Object {
+        "height": 20,
+        "resizeMode": "contain",
+        "tintColor": "#997DFF",
+        "width": 20,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginHorizontal": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#2E3C57",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 15,
+          "letterSpacing": -0.13,
+          "lineHeight": 22,
+          "marginBottom": 4,
+        }
+      }
+    >
+      test title
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#939BAB",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 12,
+          "letterSpacing": 0.01,
+          "lineHeight": 16,
+        }
+      }
+    >
+      test sub title
+    </Text>
+  </View>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/chevron_right.png",
+      }
+    }
+    style={
+      Object {
+        "height": 14,
+        "resizeMode": "contain",
+        "tintColor": "#D5D8DF",
+        "width": 14,
+      }
+    }
+  />
+</View>
+`;

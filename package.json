@@ -1,0 +1,80 @@
+{
+  "name": "awesometsproject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android:prod": "npm run setupEnv prod && react-native run-android --variant=prodDebug",
+    "android:qa": "npm run setupEnv qa && react-native run-android --variant=qaDebug",
+    "ios:prod": "npm run setupEnv prod && react-native run-ios --scheme AwesomeTSProject",
+    "ios:qa": "npm run setupEnv qa && react-native run-ios --scheme AwesomeTSProjectQA",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "setupEnv": "node ./scripts/setup-env.js",
+    "android:deploy:prod": "npm run setupEnv prod && cd android && ./gradlew assembleprodRelease",
+    "android:deploy:qa": "npm run setupEnv qa && cd android && ./gradlew assembleqaRelease"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^6.0.5",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/stack": "^6.0.7",
+    "fs": "0.0.1-security",
+    "jest-fetch-mock": "^3.0.3",
+    "jetifier": "^2.0.0",
+    "react": "17.0.2",
+    "react-native": "0.65.1",
+    "react-native-config": "^1.4.3",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-pager-view": "^5.4.1",
+    "react-native-reanimated": "^2.3.0-alpha.2",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-screens": "^3.6.0",
+    "react-native-tab-view": "^3.1.1",
+    "react-native-testing-library": "^6.0.0",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/react-native": "^0.64.5",
+    "@types/react-redux": "^7.1.18",
+    "@types/react-test-renderer": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "moment-timezone": "^0.5.33",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "17.0.2",
+    "strip-indent": "^4.0.0",
+    "typescript": "^3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "automock": false,
+    "setupFiles": [
+      "./jestsetup.js"
+    ]
+  }
+}

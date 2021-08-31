@@ -1,0 +1,142 @@
+{
+    "data": {
+      "properties": [
+        {
+          "documents": [
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-01",
+                "name": "test category 01"
+              },
+              "type": {
+                "name": "Feed Agreement"
+              },
+              "createdAt": "2019-05-11T12:28:46.000Z"
+            },
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-02",
+                "name": "test category 02"
+              },
+              "type": {
+                "name": "Agency agreement"
+              },
+              "createdAt": "2020-04-18T12:22:13.000Z"
+            },
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-03",
+                "name": "test category 03"
+              },
+              "type": {
+                "name": "Notice"
+              },
+              "createdAt": "2020-05-26T08:56:38.000Z"
+            },
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-04",
+                "name": "test category 04"
+              },
+              "type": {
+                "name": "Feed Agreement"
+              },
+              "createdAt": "2020-07-03T17:22:40.000Z"
+            },
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-05",
+                "name": "test category 05"
+              },
+              "type": {
+                "name": "Feed Agreement"
+              },
+              "createdAt": "2020-07-27T15:59:46.000Z"
+            },
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-06",
+                "name": "test category 06"
+              },
+              "type": {
+                "name": "Swimming pool compliance certificate"
+              },
+              "createdAt": "2020-08-17T17:29:07.000Z"
+            },
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-06",
+                "name": "test category 06"
+              },
+              "type": {
+                "name": "Electricity papers"
+              },
+              "createdAt": "2020-08-20T16:00:03.000Z"
+            },
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-07",
+                "name": "test category 07"
+              },
+              "type": {
+                "name": "Feed Agreement"
+              },
+              "createdAt": "2020-09-01T20:02:48.000Z"
+            },
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-08",
+                "name": "test category 08"
+              },
+              "type": {
+                "name": "Water bill papers"
+              },
+              "createdAt": "2021-02-19T12:23:15.000Z"
+            },
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-09",
+                "name": "test category 09"
+              },
+              "type": {
+                "name": "Key Store Receipt"
+              },
+              "createdAt": "2021-02-26T15:07:57.000Z"
+            },
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-09",
+                "name": "test category 09"
+              },
+              "type": {
+                "name": "Agency agreement"
+              },
+              "createdAt": "2021-05-04T16:58:38.000Z"
+            },
+            {
+              "files": ["document-url"],
+              "category": {
+                "code": "TEST_CATEGORY-10",
+                "name": "test category 10"
+              },
+              "type": {
+                "name": "Key Store Receipt"
+              },
+              "createdAt": "2021-05-06T17:51:05.000Z"
+            }
+          ]
+        }
+      ]
+    }
+}

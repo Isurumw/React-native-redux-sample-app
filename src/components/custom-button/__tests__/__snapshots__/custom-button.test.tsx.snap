@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the custom button the button component renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#7C2AF7",
+      "borderRadius": 20,
+      "flexDirection": "row",
+      "height": 40,
+      "justifyContent": "center",
+      "opacity": 1,
+    }
+  }
+  testID="test_button"
+>
+  <Text
+    style={
+      Object {
+        "color": "#FFFFFF",
+        "fontFamily": "Inter-SemiBold",
+        "fontSize": 13,
+        "letterSpacing": 0.02,
+        "lineHeight": 16,
+        "marginStart": 14,
+      }
+    }
+  >
+    SIGN IN
+  </Text>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/chevron_right.png",
+      }
+    }
+    style={
+      Object {
+        "height": 15,
+        "width": 15,
+      }
+    }
+  />
+</View>
+`;
