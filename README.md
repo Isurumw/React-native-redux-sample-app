@@ -2,7 +2,7 @@
 React-native / redux sample application 😎
 ```
 
-<img alt="express-typescript" src="./src/assets/images/react_native_featured_image.png" height="50%" width="60%">
+<img alt="express-typescript" src="./src/assets/images/react_native_image.png" height="50%" width="60%">
 
 App specification.
 
