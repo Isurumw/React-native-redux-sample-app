@@ -32,6 +32,77 @@ App specification.
 
 > _Note: I am mentioning only files/folders which you need to configure if required_
 
+
+```bash
+├── __tests__
+├── android
+├── ios
+├── env
+│   ├── .prod.env
+│   └── .qa.env
+├── scripts
+│   └── setup-env.js
+├── src
+│   ├── assets
+│   │   ├── fonts
+│   │   └── images
+│   ├── redux
+│   │   ├── actions
+│   │   │   ├── data
+│   │   │   ├── summary.actions.ts
+│   │   │   └── summary.queries.ts
+│   │   ├── reducers
+│   │   │   └── summary.reducer.ts
+│   │   ├── store
+│   │   │   └── store.ts
+│   │   └── types.d.ts
+│   ├── components
+│   │   ├── custom-button
+│   │   ├── custom-row
+│   │   ├── separator
+│   │   └── tab-Icon
+│   ├── navigation
+│   │   ├── bottom-tab-navigator
+│   │   ├── root-stack-navigator
+│   │   ├── tab-navigator
+│   │   └── screen-names.ts
+│   ├── screens
+│   │   ├── documents
+│   │   ├── management
+│   │   ├── overview
+│   │   ├── property-list
+│   │   ├── summary
+│   │   ├── welcome
+│   │   └── index.ts
+│   ├── shared-services
+│   │   ├── helper-services
+│   │   │   ├── helper.spec.ts
+│   │   │   └── helper.ts
+│   │   ├── network-services
+│   │   │   ├── network-manager.spec.ts
+│   │   │   └── network-manager.tsx
+│   │   ├── mock-data
+│   │   │   ├── mock-document-response.json
+│   │   │   └── mock-summary-response.json
+│   │   └── index.html
+│   ├── styles
+│   │   ├── colors.ts
+│   │   ├── font.style.ts
+│   │   └── fonts.ts
+│   └── utils
+│       └── constants.ts
+│
+├── .env
+├── .gitignore
+├── App.tsx
+├── babel.config.js
+├── index.js
+├── jestsetup.js
+├── package.json
+├── react-native.config.js
+└── tsconfig.json
+```
+
 # Install, Configure & Run
 
 Below mentioned are the steps to install, configure & run in your platform/distributions.
